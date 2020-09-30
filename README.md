@@ -51,5 +51,7 @@ Para executar o projeto, execute o seguinte comando:
 
 > http://localhost:8000/api/films?order=lee
 
+5.3) O retorno da lista de filmes é em JSON, e deverá ser tratado no seu front-end.
+
 OBS.: as ordens devem ser inseridas na rota em letra minúscula e as opções de ordem são as seguintes: lucas, realease, rinster, machete, magnotta, lee.
 
