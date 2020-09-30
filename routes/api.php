@@ -16,5 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('api')->group(function () {
     Route::get('/films', 'API\FilmController@films')->name('films');
-    //Route::get('/films/{order?}', 'API\FilmController@films')->name('filmsByOrder');
 });
